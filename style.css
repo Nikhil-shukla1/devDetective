@@ -1,0 +1,120 @@
+:root {
+    --lm-bg: #f6f8ff;
+    --lm-bg-content: #fefefe;
+    --lm-text: #4b6a9b;
+    --lm-text-alt: #2b3442;
+    --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+    --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+    --lm-icon-bg: brightness(100%);
+    /* Btn */
+    --btn: #0079ff;
+    --btn-hover: #60abff;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--lm-bg);
+    color: var(--lm-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.content {
+    width:350px;
+    height:280px;
+    margin-top: 10px;
+    border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #c6dbf3;
+}
+.first{
+    width:350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    padding: 3px;
+    margin-top: 30px;
+    width:350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #c6dbf3;
+}
+.search{
+    border: none;
+    background: none;
+    outline:none;
+    margin-left: 35px;
+}
+.btn{
+    position: relative;
+    outline: none;
+    border: none;
+    height: 33px;
+    width:55px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #2b3442;
+    margin-right: 0px;
+}
+.searchIcon{
+    position: absolute;
+    translate: -156px -115px;
+    height:25px;
+    width:25px;
+}
+.top-element{
+    margin-top: 10px;
+    width: 325px;
+    display:flex;
+    margin-left: 10px;;
+    justify-content: space-between;
+}
+.imgData{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+}
+.bio{
+    text-align: left;
+    margin: 10px;
+    margin-left: 15px;
+}
+.data{
+    background-color: #f6f8ff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.socialMedia{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right:15px;
+    justify-content: space-between;
+}
+.icons{
+    height: 15px;
+}
