@@ -64,6 +64,7 @@
     background: none;
     outline:none;
     margin-left: 35px;
+    width:200px;
 }
 .btn{
     position: relative;
@@ -136,3 +137,26 @@
 .company{
     text-decoration: none;
 }
+@media screen and (max-width: 380px) {
+    body {
+      font-size: 13px;
+    }
+    .content{
+        width:300px;
+    }
+    .first{
+        width:300px;
+    }
+    .search-bar{
+        width:300px;
+    }
+    .searchIcon{
+        position: absolute;
+        translate: -130px -121px;
+        height:25px;
+        width:25px;
+    }
+    .joined{
+        margin-left: 15px;
+    }
+  }
