@@ -30,31 +30,34 @@
     font-size: 13px;
 }
 .content {
-    width:350px;
+    width:380px;
     height:280px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: #c6dbf3;
+  box-shadow: 1px  8px 20px #bfc1c1;
 }
 .first{
-    width:350px;
+    width:380px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .search-bar{
+    margin-bottom: 10px;
     padding: 3px;
     margin-top: 30px;
-    width:350px;
+    width:380px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 40px;
     background-color: #c6dbf3;
+    box-shadow: 1px  8px 20px #bfc1c1;
 }
 .search{
     border: none;
@@ -75,21 +78,24 @@
 }
 .searchIcon{
     position: absolute;
-    translate: -156px -115px;
+    translate: -170px -121px;
     height:25px;
     width:25px;
 }
 .top-element{
     margin-top: 10px;
-    width: 325px;
+    width: 95%;
     display:flex;
-    margin-left: 10px;;
+    margin-left: 10px;
     justify-content: space-between;
 }
 .imgData{
     height:70px;
     width:70px;
     border-radius: 50%;
+}
+.nameData{
+    padding-left: 10px;
 }
 .bio{
     text-align: left;
@@ -117,4 +123,16 @@
 }
 .icons{
     height: 15px;
+}
+.location{
+    text-decoration: none;
+}
+.website{
+    text-decoration: none;
+}
+.twitter{
+    text-decoration: none;
+}
+.company{
+    text-decoration: none;
 }
